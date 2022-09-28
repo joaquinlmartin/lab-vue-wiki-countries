@@ -2,7 +2,7 @@
 	<div class="app">
 		<Navbar class="navbar-menu" />
 	</div>
-	<div class="showThing">
+	<div class="list">
 		<div class="country-list">
 			<CountriesList :countries="getCountry" />
 		</div>
@@ -42,7 +42,8 @@ export default {
 </script>
 
 <style>
-	.showThing {
+	.list {
+		background-color: aquamarine;
 		display: flex;
 	}
 </style>

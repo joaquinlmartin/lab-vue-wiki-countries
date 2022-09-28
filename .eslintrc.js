@@ -15,8 +15,8 @@ module.exports = {
 		'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
 		indent: [2, 'tab'],
 		'no-tabs': 0,
-		'linebreak-style':0,
+		'linebreak-style': 0,
 		'no-plusplus': 'off',
-		"vue/multi-word-component-names": "off",
+		'vue/multi-word-component-names': 'off',
 	},
 };

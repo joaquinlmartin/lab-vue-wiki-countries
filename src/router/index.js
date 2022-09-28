@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import HomeView from '../views/HomeView.vue';
-/* import CountryDetails from './views/CountryDetails.vue'; */
+import HomeView from './views/HomeView.vue';
+import CountryDetails from './views/CountryDetails.vue';
 
 const routes = [
 	{
@@ -8,12 +8,12 @@ const routes = [
 		name: 'root',
 		component: HomeView,
 	},
-	/* {
-    path: '/:countryCode',
-    name: 'CountryDetails',
-    component: CountryDetails,
+	{
+		path: '/:countryCode',
+		name: 'CountryDetails',
+		component: CountryDetails,
 
-  }, */
+	},
 ];
 
 const router = createRouter({

@@ -6,4 +6,8 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+h1 {
+	color: brown;
+}
+</style>
